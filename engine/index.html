@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>video · Dra. Julia Sahão</title>
+<style>
+@font-face{font-family:'Epilogue';src:url(fonts/Epilogue-VF.ttf) format('truetype');font-weight:100 900;font-display:block}
+@font-face{font-family:'Instrument Serif';src:url(fonts/InstrumentSerif-Italic.ttf) format('truetype');font-style:italic;font-weight:400;font-display:block}
+@font-face{font-family:'Instrument Serif';src:url(fonts/InstrumentSerif-Regular.ttf) format('truetype');font-style:normal;font-weight:400;font-display:block}
+@font-face{font-family:'Caveat';src:url(fonts/Caveat-VF.ttf) format('truetype');font-weight:400 700;font-display:block}
+@font-face{font-family:'Montserrat';src:url(fonts/Montserrat-VF.ttf) format('truetype');font-weight:100 900;font-display:block}
+*{margin:0;padding:0;box-sizing:border-box;animation:none!important;transition:none!important}
+html,body{overflow:hidden;background:#000}
+#view{position:relative;overflow:hidden;background:#F4EFE4}
+#stage{position:absolute;left:0;top:0;overflow:hidden;background:#F4EFE4;color:#2F2B24;transform-origin:0 0;
+  font-family:'Epilogue',Arial,sans-serif;-webkit-font-smoothing:antialiased;text-rendering:geometricPrecision}
+</style>
+<script src="project.js"></script>
+<script>
+  (function () { const P = window.PROJECT, s = P.VIEW_SCALE || 1, w = Math.round(P.W * s), h = Math.round(P.H * s);
+    document.write(`<style>html,body,#view{width:${w}px;height:${h}px}#stage{width:${P.W}px;height:${P.H}px;transform:scale(${s})}</style>`); })();
+</script>
+<script src="brand.js"></script>
+</head>
+<body>
+<!-- filtros globais: grão de papel e duotom de herbário -->
+<svg width="0" height="0" style="position:absolute"><defs>
+  <filter id="grain" x="0" y="0" width="100%" height="100%"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="2" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 .5  0 0 0 0 .5  0 0 0 0 .5  0 0 0 1 0"/></filter>
+  <filter id="herbario" color-interpolation-filters="sRGB"><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncR type="table" tableValues="0.184 0.737"/><feFuncG type="table" tableValues="0.169 0.776"/><feFuncB type="table" tableValues="0.141 0.553"/></feComponentTransfer></filter>
+</defs></svg>
+<div id="view"><div id="stage"></div></div>
+<script src="core.js"></script>
+<script src="lib/julia.js"></script>
+<script src="shots/timing.js" onerror="void 0"></script>
+<script src="shots/manifest.js"></script>
+</body>
+</html>

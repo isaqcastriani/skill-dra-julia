@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Estáticos · Dra. Julia Sahão</title>
+<!--
+  Modelos de peças estáticas. Cada .art é uma peça; edite o texto direto aqui (ou com contenteditable no navegador).
+  Unidade "cqw" = 1 % da largura da peça → a mesma peça vale em 1080 px (exportação) ou 360 px (visualização).
+  Exportar PNG 1080 px:  node ../../scripts/exportar_estaticos.mjs pecas.html saida/
+  Regras: ../../references/estaticos.md · conformidade: ../../references/conformidade.md
+-->
+<style>
+@font-face{font-family:'Epilogue';src:url(../../assets/fonts/Epilogue-VF.ttf) format('truetype');font-weight:100 900}
+@font-face{font-family:'Instrument Serif';src:url(../../assets/fonts/InstrumentSerif-Italic.ttf) format('truetype');font-style:italic}
+@font-face{font-family:'Caveat';src:url(../../assets/fonts/Caveat-VF.ttf) format('truetype');font-weight:400 700}
+@font-face{font-family:'Montserrat';src:url(../../assets/fonts/Montserrat-VF.ttf) format('truetype');font-weight:100 900}
+:root{--paper:#F4EFE4;--paper-2:#ECE5D6;--paper-3:#DFD9D1;--card:#FBF8F1;--ink:#2F2B24;--tinta:#39342C;--musgo:#7E7A63;--oliva:#5E6637;--folha:#BCC68D;--mostarda:#DFB054;--urucum:#C63806;--mata:#1F2D1D;--cream:#EFE8D6;
+  --font:"Epilogue",Arial,sans-serif;--serif:"Instrument Serif",Georgia,serif;--hand:"Caveat",cursive;--tarja:"Montserrat",Arial,sans-serif}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font);background:#E9E3D6;color:var(--tinta);padding:30px}
+.grid{display:flex;flex-wrap:wrap;gap:28px;align-items:flex-start}
+figure figcaption{font-size:13px;margin-top:8px;max-width:360px}
+.art{position:relative;width:360px;overflow:hidden;container-type:inline-size;background:var(--paper);font-family:var(--font)}
+body.export{padding:0;background:#fff}
+body.export .art{width:1080px}
+body.export figcaption{display:none}
+.r45{aspect-ratio:4/5}.r916{aspect-ratio:9/16}.r11{aspect-ratio:1/1}
+i{font-family:var(--serif);font-weight:400}
+.grain::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.07;mix-blend-mode:multiply;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.sig{position:absolute;left:6cqw;bottom:5cqw;font-size:2.6cqw;line-height:1.2}
+.sig b{font-weight:800}.sig span{font-weight:300}
+.sig small{display:block;font-size:1.9cqw;letter-spacing:.18em;font-weight:600;opacity:.8}
+.h{text-transform:uppercase;letter-spacing:-.04em;line-height:.9;font-weight:300}
+.h b{font-weight:800;letter-spacing:-.045em}
+.label{background:var(--card);border-radius:3cqw;padding:3cqw;box-shadow:0 4cqw 6cqw -4cqw rgba(31,45,29,.55)}
+.label small{font-size:1.6cqw;letter-spacing:.2em;font-weight:700;color:var(--musgo)}
+.label b{display:block;font-size:5.2cqw;letter-spacing:-.03em;color:var(--ink);line-height:1;margin-top:1cqw}
+.label i{font-size:3.8cqw;color:var(--oliva)}
+.label p{font-size:2.1cqw;border-top:1px dashed var(--paper-3);margin-top:1.6cqw;padding-top:1.4cqw;line-height:1.5}
+.pl{position:absolute;filter:drop-shadow(0 3cqw 3cqw rgba(31,45,29,.3))}
+.btn{display:inline-flex;align-items:center;gap:2cqw;background:var(--mata);color:var(--cream);border-radius:999px;font-weight:600;font-size:2.6cqw;letter-spacing:.14em;text-transform:uppercase;padding:1.2cqw 1.2cqw 1.2cqw 4cqw}
+.btn em{font-style:normal;width:6cqw;height:6cqw;border-radius:50%;background:var(--folha);color:var(--mata);display:grid;place-items:center;font-size:3cqw}
+.tarja{position:absolute;background:#fff;padding:2.4cqw 3cqw 2cqw 5cqw;font-family:var(--tarja);font-weight:800;line-height:1.05;color:var(--urucum)}
+.tarja::before{content:"";position:absolute;left:0;top:0;bottom:0;width:2.4cqw;border:1cqw solid #111;border-right:0}
+/* A · pergunta com fonte */
+.A .q{position:absolute;left:6cqw;right:6cqw;top:9cqw;font-size:12.4cqw;color:var(--ink)}
+.A .q b{display:block;color:var(--oliva)}
+.A .ans{position:absolute;left:6cqw;width:48cqw;top:58cqw;font-size:3.6cqw;line-height:1.3}
+.A .ans b{color:var(--ink)}
+.A .label{position:absolute;right:6cqw;top:52cqw;width:36cqw;rotate:3deg;z-index:2}
+.A .foot{position:absolute;left:0;right:0;bottom:0;height:17cqw;background:var(--mata);color:var(--cream);display:flex;align-items:center;justify-content:space-between;padding:0 6cqw}
+.A .foot .sig{position:static}
+.A .foot .cta{background:var(--mostarda);color:var(--mata);border-radius:999px;font-weight:700;font-size:2.4cqw;letter-spacing:.12em;text-transform:uppercase;padding:2.4cqw 3.6cqw}
+/* B · lote */
+.B{background:var(--mata);color:var(--cream)}
+.B .ph{position:absolute;inset:0 0 38% 0;background:url(../../assets/img/fotos/checkout-quadrada.jpg) 50% 30%/cover}
+.B .ph::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,var(--mata),transparent 45%)}
+.B .tk{position:absolute;left:6cqw;right:6cqw;bottom:20cqw;background:var(--card);color:var(--ink);border-radius:3.4cqw;display:grid;grid-template-columns:1.2fr 1fr;overflow:hidden}
+.B .tk div{padding:4cqw}.B .tk div+div{border-left:2px dashed var(--paper-3);background:var(--folha)}
+.B .tk small{font-size:1.8cqw;letter-spacing:.16em;font-weight:700;text-transform:uppercase;color:var(--musgo)}
+.B .tk p{font-size:5cqw;font-weight:800;text-transform:uppercase;letter-spacing:-.04em;line-height:.95;margin-top:1cqw}
+.B .tk .v{font-size:12cqw;letter-spacing:-.06em}.B .tk .v sup{font-size:3.4cqw;vertical-align:top;margin-right:.6cqw}
+.B .after{position:absolute;left:6cqw;right:6cqw;bottom:13cqw;font-size:2.8cqw;font-weight:600;letter-spacing:.1em;text-transform:uppercase}
+/* C · carrossel */
+.C .t{position:absolute;left:6cqw;right:6cqw;top:8cqw;font-size:11cqw;color:var(--ink)}
+.C .t b{display:block}
+.C .half{position:absolute;top:44cqw;bottom:16cqw;width:41cqw;border-radius:4cqw;padding:4cqw;display:flex;flex-direction:column;justify-content:flex-end}
+.C .h1{left:6cqw;background:var(--mata);color:var(--cream)}.C .h2{right:6cqw;background:var(--folha);color:var(--mata)}
+.C .half b{font-size:6cqw;text-transform:uppercase;letter-spacing:-.04em;font-weight:800;line-height:1}
+.C .half span{font-size:2.6cqw;margin-top:1cqw}
+.C .half img{position:absolute;top:-9cqw;right:2cqw;width:22cqw;filter:drop-shadow(0 2cqw 2cqw rgba(0,0,0,.35))}
+.C .swipe,.C2 .swipe{position:absolute;right:6cqw;bottom:6cqw;font-family:var(--hand);font-size:4.6cqw;color:var(--oliva)}
+.C2 .n{position:absolute;left:6cqw;top:7cqw;font-size:2.4cqw;font-weight:700;letter-spacing:.2em;color:var(--musgo)}
+.C2 .h{position:absolute;left:6cqw;right:6cqw;top:13cqw;font-size:9cqw;color:var(--ink)}
+.C2 .h b{color:var(--oliva)}
+.C2 ol{position:absolute;left:6cqw;right:40cqw;top:48cqw;list-style:none;font-size:3.4cqw;line-height:1.35}
+.C2 li{padding:2cqw 0;border-bottom:1px solid rgba(47,43,36,.15)}
+.C2 li b{color:var(--ink)}
+.C2 .src{position:absolute;left:6cqw;bottom:14cqw;font-size:2.2cqw;color:var(--musgo)}
+.C3{background:var(--mata);color:var(--cream)}
+.C3 .h{position:absolute;left:6cqw;right:6cqw;top:16cqw;font-size:11cqw;color:#FBF6EA;text-transform:none;letter-spacing:-.055em;font-weight:800}
+.C3 .d{position:absolute;left:6cqw;top:58cqw;font-size:3cqw;font-weight:600;letter-spacing:.14em;text-transform:uppercase;line-height:1.8}
+.C3 .btn{position:absolute;left:6cqw;top:76cqw;background:var(--cream);color:var(--mata)}
+.C3 .btn em{background:var(--mata);color:var(--folha)}
+/* D · capa de reel */
+.D{background:url(../../assets/img/fotos/hero.jpg) 50% 20%/cover}
+.D::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(22,31,20,.7),transparent 38%)}
+.D .tarja{left:7cqw;top:24%;z-index:2;font-size:6.4cqw;max-width:76cqw}
+.D .sig{z-index:2;color:#fff;bottom:38%}
+/* E · story de abertura */
+.E .lt{position:absolute;left:7cqw;top:11%;font-size:3cqw;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--urucum)}
+.E .h{position:absolute;left:7cqw;right:7cqw;top:15%;font-size:12cqw;color:var(--ink)}
+.E .h b{color:var(--oliva)}
+.E .arch{position:absolute;left:18cqw;right:18cqw;top:40%;aspect-ratio:4/5;border-radius:999px 999px 5cqw 5cqw;background:url(../../assets/img/fotos/hero.jpg) 50% 25%/cover}
+.E .poll{position:absolute;left:12cqw;right:12cqw;top:79%;background:#fff;border-radius:4cqw;padding:3cqw;text-align:center;box-shadow:0 3cqw 6cqw -3cqw rgba(0,0,0,.35);font-size:3.4cqw;font-weight:700;color:var(--ink)}
+.E .poll span{display:block;margin-top:2cqw;background:var(--paper-2);border-radius:999px;padding:2cqw;font-weight:600;font-size:3cqw}
+/* F · story de virada de lote */
+.F{background:var(--mata);color:var(--cream)}
+.F .k{position:absolute;left:8cqw;top:16%;font-size:3cqw;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:var(--folha)}
+.F .h{position:absolute;left:8cqw;right:8cqw;top:21%;font-size:13cqw;color:#FBF6EA}
+.F .h b{color:var(--mostarda)}
+.F .p{position:absolute;left:8cqw;right:8cqw;top:50%;font-size:4.2cqw;line-height:1.35}
+.F .tk{position:absolute;left:8cqw;right:8cqw;top:62%;display:grid;grid-template-columns:1fr 1fr;gap:3cqw}
+.F .tk div{border-radius:4cqw;padding:4cqw;background:var(--folha);color:var(--mata)}
+.F .tk div+div{background:transparent;border:2px solid rgba(239,232,214,.4);color:var(--cream)}
+.F .tk small{font-size:2.6cqw;font-weight:700;letter-spacing:.14em}
+.F .tk b{display:block;font-size:12cqw;letter-spacing:-.06em;line-height:1;margin-top:1cqw}
+.F .sig{color:var(--cream);bottom:10%}
+/* G · cartela final */
+.G{background:var(--mata);color:var(--cream)}
+.G .end{position:absolute;left:8cqw;right:8cqw;top:22%;text-align:center}
+.G .end h3{color:#FBF6EA;font-size:13cqw;font-weight:800;letter-spacing:-.055em;line-height:.88}
+.G .end p{margin-top:5cqw;font-size:3.2cqw;letter-spacing:.14em;text-transform:uppercase;font-weight:600}
+.G .end .btn{margin-top:6cqw;background:var(--cream);color:var(--mata)}
+.G .end .btn em{background:var(--mata);color:var(--folha)}
+.G .sig{left:0;right:0;text-align:center;bottom:8%}
+</style>
+</head>
+<body>
+<div class="grid">
+
+<figure><div class="art r45 A grain" data-nome="A-pergunta-hibisco">
+  <p class="q h">Chá de hibisco <b>faz mal?</b></p>
+  <img class="pl" src="../../assets/img/recortes/folha-hibisco.png" style="right:-4cqw;top:30cqw;width:40cqw;rotate:14deg" alt="">
+  <div class="label"><small>ETIQUETA DO POTE</small><b>Hibisco</b><i>Hibiscus sabdariffa</i><p>Parte: cálice seco<br>Fonte: Anvisa, IN 159/2022</p></div>
+  <p class="ans">Depende de quem toma e do remédio que a pessoa já usa. <b>Na aula ao vivo eu digo quem não deve usar, com a fonte.</b></p>
+  <div class="foot"><p class="sig"><span>Dra.</span> <b>Julia Sahão</b><small>MÉDICA · CRM [UF] [nº]</small></p><span class="cta">11-11 · 20h · R$ 57</span></div>
+</div><figcaption><b>A · Pergunta com fonte</b> (frio e quente)</figcaption></figure>
+
+<figure><div class="art r45 B" data-nome="B-lote-1">
+  <div class="ph"></div>
+  <div class="tk"><div><small>Aula ao vivo · 11-11 · 20h</small><p>Chá do<br>jeito certo</p></div><div><small>Lote 1 · até 01-11</small><p class="v"><sup>R$</sup>57</p></div></div>
+  <p class="after">Depois, R$ 87 · de 02-11 a 10-11</p>
+  <p class="sig"><span>Dra.</span> <b>Julia Sahão</b><small>MÉDICA · CRM [UF] [nº]</small></p>
+</div><figcaption><b>B · Preço e lote</b> (só quente). No lote 2: "Lote 2 · até 10-11 · R$ 87" e tire a linha "Depois".</figcaption></figure>
+
+<figure><div class="art r45 C grain" data-nome="C1-carrossel-capa">
+  <p class="t h">A mesma planta, <b>outro chá.</b></p>
+  <div class="half h1"><img src="../../assets/img/recortes/folha-camomila.png" alt=""><b>Infusão</b><span>água quente sobre a flor, tampa e espera</span></div>
+  <div class="half h2"><img src="../../assets/img/recortes/cavalinha-seca.png" alt=""><b>Decocção</b><span>o caule ferve junto com a água</span></div>
+  <p class="sig" style="color:var(--ink)"><span>Dra.</span> <b>Julia Sahão</b><small>MÉDICA · CRM [UF] [nº]</small></p>
+  <p class="swipe">arrasta →</p>
+</div><figcaption><b>C1 · Carrossel, capa</b>: funciona sozinha</figcaption></figure>
+
+<figure><div class="art r45 C2 grain" data-nome="C2-carrossel-interna">
+  <p class="n">02 / 06 · INFUSÃO</p>
+  <p class="h">Para as partes <b>delicadas.</b></p>
+  <ol><li><b>Flores e folhas</b> (ex.: <i>Matricaria chamomilla</i>)</li><li><b>Água quente sobre a planta</b>, não a planta na fervura</li><li><b>Tampe</b> a xícara enquanto espera</li></ol>
+  <img class="pl" src="../../assets/img/recortes/xicara-camomila.png" style="right:3cqw;top:46cqw;width:38cqw" alt="">
+  <p class="src">Fonte: Formulário de Fitoterápicos da Farmacopeia Brasileira, Anvisa</p>
+  <p class="sig" style="color:var(--ink)"><span>Dra.</span> <b>Julia Sahão</b><small>MÉDICA · CRM [UF] [nº]</small></p>
+  <p class="swipe">→</p>
+</div><figcaption><b>C2 · Carrossel, lâmina interna</b>: 1 ideia, ≤ 3 itens, fonte</figcaption></figure>
+
+<figure><div class="art r45 C3" data-nome="C3-carrossel-final">
+  <img class="pl" src="../../assets/img/recortes/folha-samambaia.png" style="right:-10cqw;bottom:-6cqw;width:52cqw;rotate:-20deg" alt="">
+  <p class="h">Na aula, eu preparo na sua frente.</p>
+  <p class="d">Aula ao vivo · 11-11 · 20h · Google Meet<br>Lote 1 · R$ 57 até 01-11</p>
+  <span class="btn">Link na bio <em>→</em></span>
+  <p class="sig"><span>Dra.</span> <b>Julia Sahão</b><small>MÉDICA · CRM [UF] [nº]</small></p>
+</div><figcaption><b>C3 · Carrossel, lâmina final</b>: CTA + data + lote</figcaption></figure>
+
+<figure><div class="art r916 D" data-nome="D-capa-reel">
+  <div class="tarja">Infusão ou<br>decocção?</div>
+  <p class="sig"><span>Dra.</span> <b>Julia Sahão</b><small>MÉDICA · CRM [UF] [nº]</small></p>
+</div><figcaption><b>D · Capa de reel</b>: troque a foto pelo quadro real do vídeo</figcaption></figure>
+
+<figure><div class="art r916 E grain" data-nome="E-story-abertura">
+  <p class="lt">● Lote 1 até 01-11</p>
+  <p class="h">Aula ao vivo <b>11&#8209;11, 20h</b></p>
+  <div class="arch"></div>
+  <div class="poll">Qual planta você tem medo de errar no preparo?<span>Camomila · Hibisco · Cravo</span></div>
+</div><figcaption><b>E · Story de abertura</b> + enquete (o sticker é o do Instagram)</figcaption></figure>
+
+<figure><div class="art r916 F" data-nome="F-story-virada-lote">
+  <p class="k">Último dia do lote 1</p>
+  <p class="h">Hoje, até <b>23h59.</b></p>
+  <p class="p">Amanhã (02-11) o ingresso da aula passa para R$ 87. A aula é quarta, 11-11, às 20h.</p>
+  <div class="tk"><div><small>LOTE 1 · ATÉ HOJE</small><b>R$ 57</b></div><div><small>LOTE 2 · 02 A 10-11</small><b>R$ 87</b></div></div>
+  <p class="sig"><span>Dra.</span> <b>Julia Sahão</b><small>MÉDICA · CRM [UF] [nº]</small></p>
+</div><figcaption><b>F · Story da virada</b>: só em 01-11 (urgência real)</figcaption></figure>
+
+<figure><div class="art r916 G" data-nome="G-cartela-final">
+  <img class="pl" src="../../assets/img/recortes/folha-samambaia.png" style="left:-10cqw;bottom:16%;width:46cqw;rotate:-20deg" alt="">
+  <img class="pl" src="../../assets/img/recortes/folha-camomila.png" style="right:-8cqw;bottom:18%;width:40cqw;rotate:14deg" alt="">
+  <div class="end"><h3>Te vejo na bancada.</h3><p>Aula ao vivo · 11-11 · 20h<br>Lote 1 · R$ 57 até 01-11</p><span class="btn">Garantir ingresso <em>→</em></span></div>
+  <p class="sig"><span>Dra.</span> <b>Julia Sahão</b><small>MÉDICA · CRM [UF] [nº]</small></p>
+</div><figcaption><b>G · Cartela final</b> de anúncio/reel</figcaption></figure>
+
+</div>
+</body>
+</html>

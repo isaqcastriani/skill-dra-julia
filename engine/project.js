@@ -1,0 +1,2 @@
+/* gerado de project.json — edite o JSON e rode: python tools/projeto.py */
+window.PROJECT = {"W": 1080, "H": 1920, "FPS_NUM": 30, "FPS_DEN": 1, "TOTAL": 600, "VIEW_SCALE": 1.0, "FONT": {"sans": "'Epilogue', Arial, sans-serif", "serif": "'Instrument Serif', Georgia, serif", "hand": "'Caveat', cursive", "tarja": "'Montserrat', Arial, sans-serif"}, "FONTS_LOAD": [["Epilogue", 300], ["Epilogue", 400], ["Epilogue", 600], ["Epilogue", 800], ["Instrument Serif", 400], ["Caveat", 600], ["Montserrat", 800]], "TIMEMAP": null};
