@@ -2,7 +2,7 @@
 
 Para anúncio (vídeo e estático), reel orgânico, carrossel e story. Fontes:
 - **Pesquisa** `references/estudo-pesquisa-uxui.md`: 66 fontes (Meta, TikTok, Google/ABCD, Motion, System1, Kantar, estudos acadêmicos, CFM, Anvisa). Os números entre colchetes remetem a ela.
-- **Estudo de anúncios** `references/estudo-anuncios-meta.md` + `criativos-dataset.csv`: anúncios de cursos e aulas ao vivo na Biblioteca de Anúncios da Meta, com o tempo no ar como sinal de vencedor (seção 9).
+- **Estudo de anúncios** `references/estudo-anuncios-meta.md` + `estudo-anuncios-meta.csv`: anúncios de cursos e aulas ao vivo na Biblioteca de Anúncios da Meta, com o tempo no ar como sinal de vencedor (seção 9).
 
 Dados oficiais (nunca invente outros): aula **quarta 11-11-2026, 20h (Brasília)**, Google Meet, ~90 min, **sem gravação** · lote 1 **R$ 57 até 01-11** · lote 2 **R$ 87 de 02-11 a 10-11** · garantia 7 dias · sem bônus físico.
 
@@ -96,7 +96,7 @@ A Meta (era Andromeda) trata a **diversidade de conceitos** como a principal ala
 - 80 são do nicho de saúde, plantas e comida (16 de médicos) e 48 são de aula ao vivo, masterclass ou workshop.
 - Critério de "vencedor": **≥ 60 dias no ar** (115 anúncios; 46 passam de 1 ano), contra 25 "curtos" (< 30 dias).
 - Conversão não é pública: tempo no ar é sinal de vencedor, não prova.
-- Detalhe completo em `references/estudo-anuncios-meta.md`, com o CSV e 20 prints.
+- Detalhe completo em `references/estudo-anuncios-meta.md`, com o CSV (`estudo-anuncios-meta.csv`); os 20 prints ficam em `Dra Julia Sahao/estudos/ads-prints/`.
 
 | # | Achado | Número | Como aplicar nela |
 |---|---|---|---|
