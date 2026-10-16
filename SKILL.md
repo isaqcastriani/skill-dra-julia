@@ -10,7 +10,7 @@ description: Tudo o que se cria para a Dra. Julia Sahão (médica, plantas medic
 2. **O nível de motion dos vídeos do estúdio**, feitos com o motor de quadro (cada quadro = função pura de F, HTML → Chromium → ffmpeg), com tempos medidos nos vídeos da CUREON, N5 e Lunet. → `references/motion.md`, `engine/`
 3. **As regras de publicidade médica** que ela precisa seguir. → `references/conformidade.md`
 4. **O que converte e engaja** (estudo de 100+ anúncios de curso, vídeo e estático, + pesquisa com 66 fontes). → `references/criativos.md`
-5. **Estáticos** (feed, anúncio, carrossel, capa, story): regras + 9 modelos editáveis exportados em PNG 1080 px. → `references/estaticos.md`, `templates/estaticos/pecas.html`
+5. **Estáticos** (feed, anúncio, carrossel, capa, story): regras + 10 modelos editáveis exportados em PNG 1080 px. → `references/estaticos.md`, `templates/estaticos/pecas.html`
 
 **Leia `references/conformidade.md` antes de escrever qualquer texto de tela.** Ela é médica: um verbo de efeito ("acalma", "desincha") ou uma doença como alvo invalida a peça.
 
@@ -76,9 +76,11 @@ Easings: `E.apple` (entrada), `E.outCubic`, `E.inCubic` (saída), `E.inOutSine` 
 - `references/edicao.md` · direção de edição dos takes dela (legenda, cortes, cor, áudio, referências)
 - `references/criativos.md` · ângulos, formatos, regras de conversão e engajamento (estudo de anúncios + pesquisa)
 - `references/estaticos.md` · medidas, hierarquia, modelos e checklist de estáticos/carrosséis/stories
+- `references/estudo-anuncios-meta.md` · estudo completo de 152 anúncios (vídeo e estático), com 25 conceitos prontos
+- `references/estudo-pesquisa-uxui.md` · pesquisa de UX/UI e motion em criativos (66 fontes, checklist de 40 regras)
 - `engine/` · motor (core.js do kit do estúdio, render.mjs, lib/julia.js, tools/)
 - `templates/anuncio-faz-mal/` · anúncio de 20 s com quase todas as receitas (ROTEIRO.md explica quadro a quadro)
-- `templates/estaticos/pecas.html` · 9 peças: pergunta com fonte, lote, carrossel (capa/interna/final), capa de reel, story de abertura, story da virada, cartela final
+- `templates/estaticos/pecas.html` · 10 peças: pergunta com fonte, lote, carrossel (capa/interna/final), programa da aula, capa de reel, story de abertura, story da virada, cartela final
 - `assets/fonts/` (OFL) · `assets/img/fotos/` (geradas a partir de fotos reais dela) · `assets/img/recortes/` (plantas com fundo transparente)
 - `scripts/novo_video.py` · monta uma pasta de vídeo pronta
 - `scripts/exportar_estaticos.mjs` · exporta as peças estáticas em PNG 1080 px

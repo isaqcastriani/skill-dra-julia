@@ -1,11 +1,11 @@
 # Estáticos, carrosséis, capas e stories
 
-Modelos prontos e editáveis: `templates/estaticos/pecas.html` (9 peças). Exportar PNG em 1080 px:
+Modelos prontos e editáveis: `templates/estaticos/pecas.html` (10 peças). Exportar PNG em 1080 px:
 ```bash
 node scripts/exportar_estaticos.mjs templates/estaticos/pecas.html <saida>/ [A-pergunta-hibisco,B-lote-1]
 ```
 Copie o `pecas.html` para a pasta do trabalho antes de editar (mantenha os caminhos `../../assets` ou ajuste-os).
-Números com fonte: estudo `estudos/estudo-uxui-criativos-pesquisa.md` (66 fontes) e estudo de anúncios `estudos/estudo-criativos-ads.md`.
+Números com fonte: estudo `references/estudo-pesquisa-uxui.md` (66 fontes) e estudo de anúncios `references/estudo-anuncios-meta.md`.
 
 ## 1. Medidas
 
@@ -41,6 +41,7 @@ Regras de texto:
 | **E · Story de abertura** | anúncio da aula + enquete | seguidores | O sticker é o nativo do Instagram |
 | **F · Story da virada** | urgência real | seguidores | **Só em 01-11** (último dia do lote 1). Nada de "últimas vagas" |
 | **G · Cartela final** | CTA | fim de vídeo, último card | "Te vejo na bancada." |
+| **H · Programa da aula** | lista numerada (01–05) das plantas + regra de cada uma, "AULA AO VIVO · SEM GRAVAÇÃO", data em versalete e lote em pílula | frio e quente | Estático de lista: os 6 do estudo são todos vencedores. Troque as plantas se a lista final mudar |
 
 ## 4. Carrossel: estrutura que segura o arrasto
 
@@ -50,11 +51,17 @@ Regras de texto:
 - Última = CTA (aula, data, lote) + fonte completa.
 - Carrossel lidera o engajamento orgânico; no anúncio, teste contra o estático A.
 
-## 5. Proibido em estático (além da conformidade geral)
+## 5. O que o estudo de 152 anúncios mostrou para estático
+- Duram: **título claro do que se aprende + foto editorial**, **retrato + credencial embaixo do nome + título da aula**, **programa numerado com data em versalete**, **cartão de lote com o número grande**, **carrossel numerado de 1 dica por card**.
+- Rosto aparece em 62 % dos estáticos; botão desenhado na arte é comum ("Garantir ingresso").
+- Oferta com data tem vida curta: troque as peças de oferta a cada fase do lote (19-10, 01-11, 02-11, 08–10-11).
+- Credencial visível (CRM) aparece em só 8 de 152 anúncios, o que a torna um diferencial.
+
+## 6. Proibido em estático (além da conformidade geral)
 
 Preço riscado · contador · "últimas vagas" · selo "100 % natural" · foto de banco · rosto gerado diferente dela · marca de chá/farmácia visível · planta errada · "faz mal" como manchete de alarme sem resposta · emoji em excesso (no máximo 1–2, sóbrios) · mais de uma oferta na mesma peça.
 
-## 6. Checklist da peça
+## 7. Checklist da peça
 
 - [ ] Uma ideia só, gancho legível em 1 s no celular
 - [ ] Nome + MÉDICA + CRM

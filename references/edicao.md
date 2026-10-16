@@ -33,7 +33,11 @@ Pesquisa: quem tem a mensagem-chave nos 3 primeiros segundos domina os vídeos d
 1. **Quadro 0 nunca vazio.** Ou ela já falando com a planta na mão, ou a tarja já cheia. Proibido abrir com fade de preto ou com logo.
 2. **Texto na tela desde o quadro 0:** a tarja dela (fundo branco, colchete preto, texto urucum, Montserrat ExtraBold, no terço de cima, y 300–560) com o gancho **escrito diferente da fala** (ex.: fala "O livro do Pedro Coelho, de 1902, traz a medida do chá de camomila. Em colher."; tarja "1902: a medida do chá era em colher").
 3. **Imagem antes da fala:** não. Ela fala desde o quadro 0. Exceção: no anúncio "busca digitada" (receita 1), a busca abre e a fala dela entra no quadro 20.
-4. **Testar as duas aberturas gravadas:** sempre **duas versões** do mesmo vídeo, idênticas a partir do segundo 4. Nome dos arquivos: `camomila_A.mp4`, `camomila_D.mp4` (a letra da abertura do teleprompter).
+4. **Testar as aberturas:** sempre **três versões** do mesmo vídeo, idênticas a partir do segundo 4:
+   - as **duas aberturas gravadas** (`camomila_A.mp4`, `camomila_D.mp4`, com a letra da abertura do teleprompter);
+   - **uma que abre na planta na mão, perto da lente**, com a etiqueta de pote já na tela e a voz dela por cima (`camomila_P.mp4`).
+   
+   No estudo de 152 anúncios, os vídeos que abrem só com a planta, a mão ou o processo ficaram no ar com mediana de 400 dias, contra 132 dos que abrem no rosto. Os anunciantes que mais escalam testam vários ganchos com a mesma copy.
 5. Lower third "Dra. Julia Sahão · MÉDICA · CRM [UF] [nº]" entra no **segundo 1,0** e fica **4 s** (seção 7).
 
 ## 3. Ritmo e cortes
@@ -76,7 +80,7 @@ Especificação fixa:
 
 | Elemento | Texto | Entra | Fica | Posição | Animação |
 |---|---|---|---|---|---|
-| **Tarja dela** (mantida: o público reconhece) | o gancho escrito, ≤ 6 palavras, 2 linhas | quadro 0 | até o segundo 4 e volta na virada da história | x 100, y 300–560 | a barra branca varre da esquerda em 10 quadros (`outCubic`), o texto entra 5 quadros depois. Saída: some em 8 quadros (`inCubic`). Função `J.tarja` |
+| **Tarja dela** (mantida: o público reconhece) | o gancho escrito, ≤ 6 palavras, 2 linhas | quadro 0 | **anúncio: fixa o vídeo todo** (no estudo, os 10 anúncios com título fixo são todos vencedores, e quem chega no meio entende o assunto); **reel orgânico:** até o segundo 4 e volta na virada da história | x 100, y 300–560 | a barra branca varre da esquerda em 10 quadros (`outCubic`), o texto entra 5 quadros depois. Saída: some em 8 quadros (`inCubic`). Função `J.tarja` |
 | **Etiqueta de pote** | nome popular · *científico* · parte · preparo · fonte | quando ela **nomeia a planta** pela primeira vez | 4–6 s | x 110, y 300–720 (terço de cima, longe do rosto se ela estiver à direita) | entra com mola: 1,06→1 em 10 quadros (`outBackSoft`), brilho a 110° 4 quadros depois. `J.label` |
 | **Pílula de fonte** | "Fonte: *Memento Fitoterápico*, Anvisa, p. 63" | quando ela cita a medida, a dose ou a regra | 3–4 s | x 90, y 300 | .86→1 em 17 quadros (`outBackSoft`), blur 12→0. `J.source` |
 | **Nota manuscrita** | 1 por vídeo, ≤ 5 palavras ("tampa a xícara") | no gesto correspondente | 2,5 s | perto do objeto | escreve a 13 caracteres/s + seta desenhada. `J.hand` |
@@ -165,6 +169,7 @@ Marque a saída como bt709 nas 4 propriedades (primaries, trc, colorspace, range
 | N5/memo (estúdio) | `Downloads/N5-Memo-remake/N5_Memo_remake.mp4` | palavras com blur e subida curta, papel e vidro fosco, câmera que nunca para | os chicotes de câmera rápidos |
 | Fernando Miranda, short "Red Bull" | [youtube.com/shorts/bO_bFqRe-jM](https://www.youtube.com/shorts/bO_bFqRe-jM) · **0:00–0:03** | a estrutura (história geral e curiosa que desce para o tema) e o gancho escrito diferente da fala no terço de cima | a legenda branca em caixa alta com contorno, a faixa vermelha, o ritmo de corte de 1 s |
 | Reels dela, "Infusão ou decocção?" | [instagram.com/drajuliasahao/reel/DabXwblusf-](https://www.instagram.com/drajuliasahao/reel/DabXwblusf-/) · capa | a tarja (branco, colchete preto, urucum), ela com o objeto na mão, a varanda | o enquadramento com a câmera baixa |
+| Anúncios do nicho de plantas (Biblioteca de Anúncios) | prints 1–20 em `estudos/ads-prints/` | planta na mão perto da lente + nome popular e científico (vencedores de 598–1.552 dias) | promessa de efeito e doença no gancho (vetado para ela) |
 | Reels dela, cavalinha | [instagram.com/drajuliasahao/reel/DeK1WBvOJjn](https://www.instagram.com/drajuliasahao/reel/DeK1WBvOJjn/) · capa | luz da varanda e planta na mão desde o início | a tarja em oliva sobre fundo claro (pouco contraste) |
 | Anúncio-modelo da skill | `skill/video-dra-julia/templates/anuncio-faz-mal` (render em `entregas/video-demo/anuncio-faz-mal.mp4`) | todas as receitas de motion da marca, com tempos | — |
 
