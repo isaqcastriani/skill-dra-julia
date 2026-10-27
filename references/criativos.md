@@ -6,7 +6,7 @@ Para anúncio (vídeo e estático), reel orgânico, carrossel e story. Fontes:
 
 **Linha de comunicação:** desde 26-10-2026 o ângulo é **ancestralidade + problema e solução** (`comunicacao.md`). Os números e formatos deste arquivo continuam valendo; os ganchos e ângulos abaixo passam a ser escritos na voz de `comunicacao.md` (crença central, 5 estilos, banco de ganchos). Os ângulos 1 a 13 continuam úteis como formato; a seção 4.1 mostra como cada estilo novo se encaixa.
 
-Dados oficiais (nunca invente outros): aula **quarta 11-11-2026, 20h (Brasília)**, Google Meet, ~90 min, **sem gravação** · lote 1 **R$ 57 até 01-11** · lote 2 **R$ 87 de 02-11 a 10-11** · garantia 7 dias · sem bônus físico.
+Dados oficiais (nunca invente outros): aula **quarta 18-11-2026, 20h (Brasília)**, Google Meet, ~90 min, **sem gravação** · lote 1 **R$ 57 até 08-11** · lote 2 **R$ 87 de 09-11 a 17-11** · garantia 7 dias · sem bônus físico.
 
 ## 1. Antes do criativo: com quem e em que estágio
 - **Quem:** a mulher que **já faz chá e tem medo de errar**. Ela pesquisa "faz mal?", "quem não pode tomar", "fresca ou seca", "quantas folhas", "pode criança?".
@@ -57,7 +57,7 @@ A Meta (era Andromeda) trata a **diversidade de conceitos** como a principal ala
 | 8 | A busca | barra de busca digitando "chá de hibisco faz mal?" → ela responde | vídeo (template `anuncio-faz-mal`) | frio |
 | 9 | Caixa de perguntas | "Dá para fazer chá com a folha fresca? Dá. E muda a quantidade." | vídeo | quente |
 | 10 | A bancada (demonstração) | "Na aula eu preparo na sua frente. Olha a tampa." | vídeo 10–15 s | quente |
-| 11 | Oferta primeiro | "Aula ao vivo · 11-11 · 20h · R$ 57 até 01-11." | estático B · vídeo 10 s | só quente |
+| 11 | Oferta primeiro | "Aula ao vivo · 18-11 · 20h · R$ 57 até 08-11." | estático B · vídeo 10 s | só quente |
 | 12 | Última semana / lembrete | "A aula é quarta, às 20h. O que você leva dela." | vídeo 6–15 s | retargeting |
 | 13 | Storytelling (reels G1/G2) | a história curiosa (Pedro Coelho, cravo contrabandeado, flor da Malásia, cavalinha gigante, babosa e a FDA) | reel 60–100 s → cortes de 30 s | orgânico → anúncio |
 
@@ -84,8 +84,8 @@ A Meta (era Andromeda) trata a **diversidade de conceitos** como a principal ala
 
 ## 6. Aula ao vivo: data e comparecimento
 - Data, hora e fuso em **3 momentos** do vídeo (abertura, meio, cartela) [44].
-- Lote com virada **real** e data escrita. Em 01-11, story e anúncio "último dia do lote 1".
-- 49,6 % das inscrições em webinars acontecem nos **últimos 7 dias** [41]: reforce verba e criativos de 04 a 10-11.
+- Lote com virada **real** e data escrita. Em 08-11, story e anúncio "último dia do lote 1".
+- 49,6 % das inscrições em webinars acontecem nos **últimos 7 dias** [41]: reforce verba e criativos de 11 a 17-11.
 - Lembretes: confirmação · 24 h antes · 1 h antes · "estamos ao vivo" (comparecimento médio de 51,3 % [41]).
 
 ## 7. Teste (verba de R$ 2.000)
@@ -120,10 +120,10 @@ A Meta (era Andromeda) trata a **diversidade de conceitos** como a principal ala
 | 5 | **Tarja-título fixa** carrega o gancho do começo ao fim | 36 % dos vídeos; os 10 com título fixo são todos vencedores; palavra por palavra é só 26 % e não diferencia | no anúncio, a tarja dela fica **fixa o vídeo todo** no terço de cima; legenda em frase de 1–2 linhas |
 | 6 | Palavra-chave em outra cor; **nome popular + científico** como título | padrão dos vencedores de plantas (11 anúncios de um só anunciante, 598–1.552 dias) | marca-texto folha + etiqueta de pote |
 | 7 | **Conteúdo vale como anúncio** no nicho de saúde | 28 anúncios "Acessar o perfil" (24 de saúde) com mediana de 505 dias; 47 % dos vencedores de saúde sem oferta | campanha de conteúdo (seguir o perfil / "comente [PLANTA]") rodando junto da campanha de ingresso |
-| 8 | **Oferta com data tem vida curta**, e é para ser assim | data em 32 % dos curtos × 2 % dos vencedores | **trocar os criativos de oferta a cada fase**: 19-10 (lote 1), 01-11 (último dia), 02-11 (lote 2), 08–10-11 (a aula é quarta) |
+| 8 | **Oferta com data tem vida curta**, e é para ser assim | data em 32 % dos curtos × 2 % dos vencedores | **trocar os criativos de oferta a cada fase**: 19-10 (lote 1), 08-11 (último dia), 09-11 (lote 2), 15–17-11 (a aula é quarta) |
 | 9 | Escalar = **testar ganchos com a mesma copy** | 6 ganchos para um e-book; 8 estáticos numa semana; 14 variações de um vídeo de retargeting | 3 aberturas por vídeo (as 2 gravadas + "abre na planta") |
 | 10 | **Credencial visível é rara**, e por isso diferencia | só 8 de 152 mostram CRM/RQE | lower third + rodapé com "MÉDICA · CRM" é vantagem, não só obrigação |
-| 11 | Evento pago: **data e hora numa linha com o dia da semana**; **lote como objeto gráfico** (numeral grande); **"ao vivo, sem replay" como argumento** | — | "QUARTA · 11-11 · 20H"; "LOTE 1" com o 1 gigante; "Ao vivo, sem gravação: é para assistir junto." (fato oficial) |
+| 11 | Evento pago: **data e hora numa linha com o dia da semana**; **lote como objeto gráfico** (numeral grande); **"ao vivo, sem replay" como argumento** | — | "QUARTA · 18-11 · 20H"; "LOTE 1" com o 1 gigante; "Ao vivo, sem gravação: é para assistir junto." (fato oficial) |
 | 12 | CTA falado e escrito no fim + **cartão final** | 25 % dos vídeos têm cartão final | cartela "Te vejo na bancada." |
 | 13 | Cenário real dura | estúdio/estante 16 de 17 vencedores; cozinha real 8 de 10; horta/jardim 14 | bancada da varanda, canteiro, estante de livros (onde ela já grava) |
 | 14 | **Aula-amostra dentro do anúncio** | lousa do Prof. Kenny há 800 dias; "aula completa" há 1.416 dias | ela ensina **uma regra de preparo** em 30–45 s e convida para a aula |

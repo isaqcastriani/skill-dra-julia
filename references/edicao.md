@@ -38,7 +38,7 @@ Pesquisa: quem tem a mensagem-chave nos 3 primeiros segundos domina os vídeos d
    - **uma que abre na planta na mão, perto da lente**, com a etiqueta de pote já na tela e a voz dela por cima (`camomila_P.mp4`).
    
    No estudo de 152 anúncios, os vídeos que abrem só com a planta, a mão ou o processo ficaram no ar com mediana de 400 dias, contra 132 dos que abrem no rosto. Os anunciantes que mais escalam testam vários ganchos com a mesma copy.
-5. Lower third "Dra. Julia Sahão · MÉDICA · CRM [UF] [nº]" entra no **segundo 1,0** e fica **4 s** (seção 7).
+5. Lower third "Dra. Julia Sahão · MÉDICA · CRM-SP 182.821" entra no **segundo 1,0** e fica **4 s** (seção 7).
 
 ## 3. Ritmo e cortes
 
@@ -105,12 +105,12 @@ Proibido: zoom-pancada > 1,08, tremor, flash branco, glitch, split cromático, w
 
 ## 7. Assinatura e CTA
 
-- **"Dra. Julia Sahão · MÉDICA · CRM [UF] [nº]"** (obrigatório, CFM 2.336, art. 4º):
-  - **Lower third** do segundo 1,0 ao 5,0: pílula creme `#FBF8F1` 92 % com "Dra." (Epilogue 300) + "Julia Sahão" (800) em 40 px + linha "MÉDICA · CRM [UF] [nº]" em 22 px, tracking +0,22 em, cor musgo. Posição x 90, y 1290. Entra 14 quadros `apple`, sai 10 quadros `inCubic`.
+- **"Dra. Julia Sahão · MÉDICA · CRM-SP 182.821"** (obrigatório, CFM 2.336, art. 4º):
+  - **Lower third** do segundo 1,0 ao 5,0: pílula creme `#FBF8F1` 92 % com "Dra." (Epilogue 300) + "Julia Sahão" (800) em 40 px + linha "MÉDICA · CRM-SP 182.821" em 22 px, tracking +0,22 em, cor musgo. Posição x 90, y 1290. Entra 14 quadros `apple`, sai 10 quadros `inCubic`.
   - **De novo na cartela final**, junto do botão (`J.signature`).
   - **Na legenda do post**, sempre.
 - **Fechamento do reel orgânico:** a fala dela ("Segue o perfil pra ver a próxima.") + cartela de **2,5 s**: fundo mata, folha brotando, assinatura, "@drajuliasahao".
-- **Fechamento do anúncio:** cartela de **3 s** (receita 20): "Te vejo na bancada." + ingresso do lote vigente (R$ 57 até 01-11 / R$ 87 de 02-11 a 10-11) + botão "Garantir ingresso" com toque. **CTA falado e escrito**, repetido uma vez antes da cartela ("o link está aqui embaixo").
+- **Fechamento do anúncio:** cartela de **3 s** (receita 20): "Te vejo na bancada." + ingresso do lote vigente (R$ 57 até 08-11 / R$ 87 de 09-11 a 17-11) + botão "Garantir ingresso" com toque. **CTA falado e escrito**, repetido uma vez antes da cartela ("o link está aqui embaixo").
 - **Branding:** a marca é o rosto, a voz e o nome. Nada de logo flutuante o vídeo todo. No anúncio, marca e assinatura em **≤ 25 % da duração** (Meta/Toluna: 4,8x).
 
 ## 8. Cor

@@ -26,9 +26,9 @@ description: Tudo o que se cria para a Dra. Julia Sahão (médica, plantas medic
 
 ## 1. Regras inegociáveis
 
-- **Nome com credencial** em toda peça: "Dra. Julia Sahão · MÉDICA · CRM [UF] [nº]" (≥ 22 px no 1080; lower third nos primeiros 1–5 s e na cartela final). O placeholder `[UF] [nº]` fica em `brand.js` (`BRAND.crm`) e é trocado antes de publicar.
+- **Nome com credencial** em toda peça: "Dra. Julia Sahão · MÉDICA · CRM-SP 182.821" (≥ 22 px no 1080; lower third nos primeiros 1–5 s e na cartela final). O placeholder `[UF] [nº]` fica em `brand.js` (`BRAND.crm`) e é trocado antes de publicar.
 - **Nunca** efeito na saúde, doença/sintoma/órgão como alvo, "faz mal" como alarme (só como pergunta do público com fonte), "segredo", urgência falsa, preço riscado, replay/gravação, curso de R$ 297 em anúncio, babosa perto de copo, alecrim com cabelo/pele, marca de terceiros.
-- **Dados oficiais:** aula quarta 11-11-2026, 20h (Brasília), Google Meet, ~90 min, sem gravação · lote 1 R$ 57 de 19-10 a 01-11 · lote 2 R$ 87 de 02-11 a 10-11 · garantia de 7 dias pela Kiwify.
+- **Dados oficiais:** aula quarta 18-11-2026, 20h (Brasília), Google Meet, ~90 min, sem gravação · lote 1 R$ 57 de até 08-11 · lote 2 R$ 87 de 09-11 a 17-11 · garantia de 7 dias pela Kiwify.
 - **Planta certa:** hibisco do chá = *Hibiscus sabdariffa* (cálice), cravo = *Syzygium aromaticum*. Toda planta nomeada leva o nome científico (Instrument Serif itálico).
 - **Calmo-premium:** ritmo do institucional da CUREON, sem a energia do Reels dela. Vetado: tremor, flash branco, split cromático, glitch, escala de entrada > 1,08, motion blur > 40 px.
 - **Plantas ancoradas:** toda planta brota de uma borda, de trás de uma foto/cartão ou de um "canteiro" na base. Nunca solta no meio do quadro.

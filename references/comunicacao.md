@@ -159,6 +159,8 @@ Precisa de um motivo para ficar: conteúdo exclusivo de tempos em tempos (uma re
 
 ## 11. LP na nova linha (esqueleto)
 
+**Versão aplicada em 27-10-2026** (pasta `Dra Julia Sahao/lp`, fontes `index.html`/`main.js`; build `node tools/build.mjs`): hero "O saber da vó de volta", tese "Sua avó sabia. Só não deu tempo de ensinar.", espelho com "Lembra de um chá da avó", FAQ "Não tenho quintal" e "Minha avó fazia de outro jeito". Publicada em cha-do-jeito-certo.pages.dev (conta V4); o domínio lp.drajuliasahao.com.br é publicado pelo Victor.
+
 Segue `copy-mestres.md` parte 5 (LP que converte) e o checklist de `copy-pesquisa.md` seção 7. Na ordem:
 1. **Hero:** headline com a crença central e o que se aprende ("O saber das plantas que a sua família usava, ensinado por uma médica, ao vivo"), sub com o mecanismo (parte certa, medida, preparo, quem não deve usar), data e lote, CTA que diz o que a pessoa recebe ("Quero meu lugar na aula"), credencial colada.
 2. **O que se perdeu** (ato 2) nas palavras do público (respostas da caixinha).

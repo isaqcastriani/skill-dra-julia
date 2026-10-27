@@ -49,7 +49,7 @@ Recortes reais com fundo transparente em `assets/img/recortes/`:
 `assets/img/fotos/`: `hero.jpg` (ela na bancada, 4:5), `bio.jpg` (no canteiro, 16:9, ela à direita), `maos.jpg` (mãos servindo camomila), `xicaras.jpg` (5 chás com a cor real), `final.jpg` (varanda + vale de mata, hora dourada), `checkout-quadrada.jpg`. São geradas por IA a partir de fotos reais (ver `prompts-imagens.md` do projeto). Em vídeo, prefira SEMPRE os takes reais dela; foto gerada só como inserto/cartela.
 
 ## Assinatura
-`Dra.` (Epilogue 300) + `Julia Sahão` (800) + `MÉDICA · CRM [UF] [nº]` (600, caixa alta, tracking +0,2 em). Monograma "JS" em círculo folha. O placeholder `[UF] [nº]` é trocado antes de publicar.
+`Dra.` (Epilogue 300) + `Julia Sahão` (800) + `MÉDICA · CRM-SP 182.821` (600, caixa alta, tracking +0,2 em). Monograma "JS" em círculo folha. O placeholder `[UF] [nº]` é trocado antes de publicar.
 
 ## Componentes de marca
 - **Etiqueta de pote:** cartão `card`, rótulo "ETIQUETA DO POTE" (600, 0,18 em), nome popular (800), científico (serif itálico, oliva), tabela Parte / Preparo / Fonte com fio tracejado `paper3`. Aparece sempre que a planta é nomeada.

@@ -235,7 +235,7 @@
     return `<div style="position:absolute;left:0;right:0;top:${y}px;text-align:center;font-family:${SANS};color:${col}">
       <svg width="64" height="64" viewBox="0 0 24 24" style="display:block;margin:0 auto 14px;transform:scale(${f2(.06 + .94 * E.outBackSoft(pl))});opacity:${f2(Math.min(1, pl * 3))}"><path d="M12 2c5 4 7 9 4 15-1 2-3 4-4 5-1-1-3-3-4-5C5 11 7 6 12 2z" fill="${T.folha}"/><path d="M12 6v15" stroke="${T.mata}" stroke-width="1.3"/></svg>
       <p style="font-size:${o.size ?? 62}px;line-height:1;letter-spacing:-.03em"><span style="font-weight:300;opacity:${f2(pd)}">Dra. </span><span style="font-weight:800">${letters}</span></p>
-      <p style="margin-top:14px;font-size:24px;font-weight:600;letter-spacing:.24em;color:${dark ? T.folha : T.musgo};opacity:${f2(pc)};transform:translateY(${f2(8 * (1 - pc))}px)">${esc(C.BRAND.crm || 'MÉDICA · CRM [UF] [nº]')}</p></div>`;
+      <p style="margin-top:14px;font-size:24px;font-weight:600;letter-spacing:.24em;color:${dark ? T.folha : T.musgo};opacity:${f2(pc)};transform:translateY(${f2(8 * (1 - pc))}px)">${esc(C.BRAND.crm || 'MÉDICA · CRM-SP 182.821')}</p></div>`;
   }
   // botão CTA com toque: entra .94→1 outBack(1,2) 12 F; dedo chega em 20 F; toque 1→.94→1; onda
   function cta(text, lf, o = {}) {

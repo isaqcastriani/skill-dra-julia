@@ -22,7 +22,7 @@ Números com fonte: estudo `references/estudo-pesquisa-uxui.md` (66 fontes) e es
 2. **Prova**: etiqueta de pote (nome popular + *científico* + parte + fonte) ou a foto dela na bancada.
 3. **Ponte**: 1–2 linhas ligando à aula ("Na aula ao vivo eu digo quem não deve usar, com a fonte.").
 4. **Oferta**: data · hora · lote · preço. Na peça de oferta ela vem **primeiro** (o banner "oferta primeiro" teve 8,6 % de taxa de acerto e 29,3 % da verba no relatório da Motion).
-5. **Assinatura**: "Dra. Julia Sahão · MÉDICA · CRM [UF] [nº]", ≥ 22 px (ideal 28–30 px no 1080).
+5. **Assinatura**: "Dra. Julia Sahão · MÉDICA · CRM-SP 182.821", ≥ 22 px (ideal 28–30 px no 1080).
 
 Regras de texto:
 - Texto na imagem enxuto: a Meta diz que imagens com menos de 20 % de texto "geralmente performam melhor". No máximo **3 blocos de texto** por peça.
@@ -35,11 +35,11 @@ Regras de texto:
 | Modelo | Ângulo | Público | Notas |
 |---|---|---|---|
 | **A · Pergunta com fonte** | "[planta] faz mal?" (pergunta do público) | frio e quente | Resposta factual primeiro, sem alarme; fonte da Anvisa na etiqueta. Troque a planta, mantendo a espécie certa |
-| **B · Preço e lote** | oferta primeiro | só quente (seguidores, engajados, visitantes da LP) | Foto quadrada dela (a mesma do checkout). Lote 2: "R$ 87 · 02 a 10-11" |
+| **B · Preço e lote** | oferta primeiro | só quente (seguidores, engajados, visitantes da LP) | Foto quadrada dela (a mesma do checkout). Lote 2: "R$ 87 · 02 a 17-11" |
 | **C1–C3 · Carrossel** | infusão × decocção (ou quem não deve usar, ou mesmo nome, planta diferente) | orgânico + frio | C1 funciona sozinha e termina em "arrasta →"; C2 traz uma ideia por lâmina, ≤ 3 itens e fonte no rodapé; C3 é a lâmina final com CTA, data e lote |
 | **D · Capa de reel** | tema do vídeo | orgânico | A tarja dela (branco + colchete preto + urucum, Montserrat 800) no terço de cima. Use o **quadro real do vídeo** |
 | **E · Story de abertura** | anúncio da aula + enquete | seguidores | O sticker é o nativo do Instagram |
-| **F · Story da virada** | urgência real | seguidores | **Só em 01-11** (último dia do lote 1). Nada de "últimas vagas" |
+| **F · Story da virada** | urgência real | seguidores | **Só em 08-11** (último dia do lote 1). Nada de "últimas vagas" |
 | **G · Cartela final** | CTA | fim de vídeo, último card | "Te vejo na bancada." |
 | **H · Programa da aula** | lista numerada (01–05) das plantas + regra de cada uma, "AULA AO VIVO · SEM GRAVAÇÃO", data em versalete e lote em pílula | frio e quente | Estático de lista: os 6 do estudo são todos vencedores. Troque as plantas se a lista final mudar |
 
@@ -54,7 +54,7 @@ Regras de texto:
 ## 5. O que o estudo de 152 anúncios mostrou para estático
 - Duram: **título claro do que se aprende + foto editorial**, **retrato + credencial embaixo do nome + título da aula**, **programa numerado com data em versalete**, **cartão de lote com o número grande**, **carrossel numerado de 1 dica por card**.
 - Rosto aparece em 62 % dos estáticos; botão desenhado na arte é comum ("Garantir ingresso").
-- Oferta com data tem vida curta: troque as peças de oferta a cada fase do lote (19-10, 01-11, 02-11, 08–10-11).
+- Oferta com data tem vida curta: troque as peças de oferta a cada fase do lote (19-10, 08-11, 09-11, 15–17-11).
 - Credencial visível (CRM) aparece em só 8 de 152 anúncios, o que a torna um diferencial.
 
 ## 6. Proibido em estático (além da conformidade geral)

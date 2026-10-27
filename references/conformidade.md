@@ -3,7 +3,7 @@
 Ela é médica. Toda fala, texto na tela, legenda do post e cartela segue isto. **Se um trecho gravado quebra uma regra, NÃO edite para "esconder": marque o trecho, não use e avise o Victor** (é ele quem decide se sai, se é refeito ou se fica).
 
 ## Obrigatório
-- "Dra. Julia Sahão · MÉDICA · CRM [UF] [nº]" visível em todo vídeo (mínimo 3 s, legível: ≥ 22 px no 1080) e na legenda do post.
+- "Dra. Julia Sahão · MÉDICA · CRM-SP 182.821" visível em todo vídeo (mínimo 3 s, legível: ≥ 22 px no 1080) e na legenda do post.
 - Tom de informação: preparo, parte da planta, medida, tempo, conservação, **quem não deve usar**, de onde vem a informação.
 
 ## Proibido (fala, tela, legenda)
@@ -29,4 +29,4 @@ Ela é médica. Toda fala, texto na tela, legenda do post e cartela segue isto. 
 | Cravo | "a Anvisa reconhece propriedades medicinais do cravo" | Não usar (sem monografia no Memento/Formulário) |
 
 ## Dados que podem aparecer (decididos)
-Aula "Chá do jeito certo" · quarta, 11-11-2026, 20h (Brasília) · Google Meet · ~90 min · sem gravação · Lote 1 R$ 57 (19-10 a 01-11) · Lote 2 R$ 87 (02-11 a 10-11) · garantia 7 dias pela Kiwify · Pix ou cartão.
+Aula "Chá do jeito certo" · quarta, 18-11-2026, 20h (Brasília) · Google Meet · ~90 min · sem gravação · Lote 1 R$ 57 (até 08-11) · Lote 2 R$ 87 (09-11 a 17-11) · garantia 7 dias pela Kiwify · Pix ou cartão.

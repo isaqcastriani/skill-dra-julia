@@ -53,7 +53,7 @@
       J.arch('fotos/hero.jpg', lf, { x: 220, y: 420, w: 640, h: 800, start: 4, n: 124 }) +
       J.plant(R('folha-camomila.png'), lf, F, { x: 820, y: 1270, w: 230, rot: 8, start: 24, seed: 1 }) +
       J.title(['Aula *ao vivo*'], lf, { y: 285, size: 104, start: 10 }) +
-      J.say('11-11 · 20h · Google Meet', lf, { y: 1265, size: 46, weight: 600, ls: '.04em', color: T.ink, start: 30 }) +
+      J.say('18-11 · 20h · Google Meet', lf, { y: 1265, size: 46, weight: 600, ls: '.04em', color: T.ink, start: 30 }) +
       J.signature(lf, { y: 1370, start: 40, size: 56 });
     return `<div style="position:absolute;inset:0;opacity:${fadeIn.toFixed(3)}">${J.cam(scene, lf, 124, F, { push: .04 })}</div>`;
   } });
