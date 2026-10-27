@@ -4,6 +4,8 @@ Para anúncio (vídeo e estático), reel orgânico, carrossel e story. Fontes:
 - **Pesquisa** `references/estudo-pesquisa-uxui.md`: 66 fontes (Meta, TikTok, Google/ABCD, Motion, System1, Kantar, estudos acadêmicos, CFM, Anvisa). Os números entre colchetes remetem a ela.
 - **Estudo de anúncios** `references/estudo-anuncios-meta.md` + `estudo-anuncios-meta.csv`: anúncios de cursos e aulas ao vivo na Biblioteca de Anúncios da Meta, com o tempo no ar como sinal de vencedor (seção 9).
 
+**Linha de comunicação:** desde 26-10-2026 o ângulo é **ancestralidade + problema e solução** (`comunicacao.md`). Os números e formatos deste arquivo continuam valendo; os ganchos e ângulos abaixo passam a ser escritos na voz de `comunicacao.md` (crença central, 5 estilos, banco de ganchos). Os ângulos 1 a 13 continuam úteis como formato; a seção 4.1 mostra como cada estilo novo se encaixa.
+
 Dados oficiais (nunca invente outros): aula **quarta 11-11-2026, 20h (Brasília)**, Google Meet, ~90 min, **sem gravação** · lote 1 **R$ 57 até 01-11** · lote 2 **R$ 87 de 02-11 a 10-11** · garantia 7 dias · sem bônus físico.
 
 ## 1. Antes do criativo: com quem e em que estágio
@@ -58,6 +60,17 @@ A Meta (era Andromeda) trata a **diversidade de conceitos** como a principal ala
 | 11 | Oferta primeiro | "Aula ao vivo · 11-11 · 20h · R$ 57 até 01-11." | estático B · vídeo 10 s | só quente |
 | 12 | Última semana / lembrete | "A aula é quarta, às 20h. O que você leva dela." | vídeo 6–15 s | retargeting |
 | 13 | Storytelling (reels G1/G2) | a história curiosa (Pedro Coelho, cravo contrabandeado, flor da Malásia, cavalinha gigante, babosa e a FDA) | reel 60–100 s → cortes de 30 s | orgânico → anúncio |
+
+### 4.1 Ângulos da nova linha (26-10)
+
+| # | Ângulo (estilo de `comunicacao.md`) | Gancho | Formato | Público |
+|---|---|---|---|---|
+| 14 | Herança perdida | "Sua bisavó tinha 3 plantas no quintal para quando a comida pesava. Você tem um app de delivery." | reel falado com planta na mão · carrossel | frio/quente |
+| 15 | Você faz isso? | "Você ferve a camomila? Tem uma coisa sobre a flor que ninguém te contou." | vídeo demo | frio/quente (conversão) |
+| 16 | Do canteiro à xícara | "Colhi isso hoje às 7h. Daqui a 9 dias vira chá." | story · reel sem fala | quente |
+| 17 | A médica que diz onde não serve | "Sou médica e uso plantas todo dia. Por isso vou te dizer quem não deve tomar este chá." | reel na estante | frio/quente (conversão) |
+| 18 | Você perguntou / Receita de família | "Uma seguidora me mandou a receita da avó dela. O que estava certo." | print + reel | quente → anúncio |
+| 19 | Dor como pergunta (só com aprovação do Victor) | "Comeu pesado? Sua avó tinha uma resposta. Quase ninguém sabe mais qual." | vídeo 15–30 s | frio |
 
 **Ganchos proibidos:** "você tem [condição]?", "o segredo que só conto na aula" (CFM veda "descoberta" cujo acesso depende de pagamento, art. 11 §4º), "faz mal" como alarme, qualquer efeito na saúde.
 

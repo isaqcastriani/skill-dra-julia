@@ -1,6 +1,6 @@
 # dra-julia
 
-Skill do Claude Code para os criativos da **Dra. Julia Sahão**: vídeos e estáticos (aula ao vivo "Chá do jeito certo"): Reels, anúncios 9:16 e 4:5, posts, carrosséis, stories, capas e edição dos takes dela, no nível de motion dos vídeos do estúdio (motor de quadro determinístico) e com a identidade "Bancada na mata" da landing page.
+Skill do Claude Code para a comunicação e os criativos da **Dra. Julia Sahão** (linha de comunicação em [`references/comunicacao.md`](references/comunicacao.md)): vídeos e estáticos (aula ao vivo "Chá do jeito certo"): Reels, anúncios 9:16 e 4:5, posts, carrosséis, stories, capas e edição dos takes dela, no nível de motion dos vídeos do estúdio (motor de quadro determinístico) e com a identidade "Bancada na mata" da landing page.
 
 Comece por [`SKILL.md`](SKILL.md).
 

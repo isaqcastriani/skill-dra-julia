@@ -1,11 +1,11 @@
 ---
 name: dra-julia
-description: Tudo o que se cria para a Dra. Julia Sahão (médica, plantas medicinais, aula ao vivo "Chá do jeito certo", @drajuliasahao) — vídeos (Reels, anúncios 9:16 e 4:5, cartelas, edição dos takes dela) no nível de motion dos vídeos do estúdio, e estáticos (posts de feed, anúncios, carrosséis, capas de reel, stories) na identidade "Bancada na mata" da LP, com contexto do produto, regras de conversão/engajamento e de publicidade médica (CFM 2.336/2023). Use SEMPRE que pedirem vídeo, reel, anúncio, post, estático, carrossel, story, capa, legenda, copy ou edição para a Dra. Julia / Julia Sahão / "a Dra" / "chá do jeito certo".
+description: Tudo o que se cria para a Dra. Julia Sahão (médica, plantas medicinais, aula ao vivo "Chá do jeito certo", @drajuliasahao) — a linha de comunicação (conhecimento ancestral das plantas + problema e solução, bio, pauta, séries, ganchos, copy de LP e anúncio), vídeos (Reels, anúncios 9:16 e 4:5, cartelas, edição dos takes dela) no nível de motion dos vídeos do estúdio, e estáticos (posts de feed, anúncios, carrosséis, capas de reel, stories) na identidade "Bancada na mata" da LP, com contexto do produto, regras de conversão/engajamento e de publicidade médica (CFM 2.336/2023). Use SEMPRE que pedirem comunicação, bio, pauta, gancho, ideia de conteúdo, vídeo, reel, anúncio, post, estático, carrossel, story, capa, legenda, copy ou edição para a Dra. Julia / Julia Sahão / "a Dra" / "chá do jeito certo".
 ---
 
 # Criativos da Dra. Julia Sahão (vídeo e estático)
 
-**Comece por `references/contexto.md`** (quem ela é, o produto, as datas, o público). Esta skill junta:
+**Comece por `references/contexto.md`** (quem ela é, o produto, as datas, o público) **e `references/comunicacao.md`** (a linha de comunicação desde 26-10-2026: ancestralidade + problema e solução, crença central, 5 estilos, ganchos, como ser forte sem quebrar o CFM). Para qualquer texto (copy, legenda, gancho, bio, LP, roteiro), `comunicacao.md` manda no tom e no ângulo; o método de escrita está em `references/copy-pesquisa.md` e `references/copy-mestres.md`. Esta skill junta:
 1. **A identidade da LP** ("Bancada na mata"): papel creme, verde-mata, planta recortada de verdade que brota da borda, etiqueta de pote com nome científico, fonte da Anvisa na tela. → `references/marca.md`
 2. **O nível de motion dos vídeos do estúdio**, feitos com o motor de quadro (cada quadro = função pura de F, HTML → Chromium → ffmpeg), com tempos medidos nos vídeos da CUREON, N5 e Lunet. → `references/motion.md`, `engine/`
 3. **As regras de publicidade médica** que ela precisa seguir. → `references/conformidade.md`
@@ -21,7 +21,8 @@ description: Tudo o que se cria para a Dra. Julia Sahão (médica, plantas medic
 | Anúncio/Reel montado (motion, cartelas, sem precisar de take novo) | `scripts/novo_video.py` + template + receitas de `lib/julia.js` (seção 2) |
 | Editar takes reais dela (G1/G2/G3) | Pipeline de edição por texto (Whisper → EDL → legendas → cor → mix → XML DaVinci), seguindo `references/edicao.md`; o motion (tarja, etiqueta, lower third, cartela) sai deste motor como PNG com alfa ou overlay |
 | Post de feed, anúncio estático, carrossel, capa de reel, story | `templates/estaticos/pecas.html` (copie, edite o texto) → `node scripts/exportar_estaticos.mjs pecas.html saida/` · regras em `references/estaticos.md` |
-| Copy de anúncio / legenda de post | `references/criativos.md` (ângulos, ganchos, estrutura) + `references/conformidade.md` + tom em `references/contexto.md` |
+| Copy de anúncio / legenda de post / bio / LP / roteiro | `references/comunicacao.md` (linha, estilos, ganchos, tradução do "agressivo") + `references/criativos.md` (formato e números) + `references/conformidade.md` + método em `references/copy-pesquisa.md` e `copy-mestres.md` |
+| Pauta do perfil, série, stories, enquete, grupo VIP | `references/comunicacao.md` seções 3 a 6 e 10 |
 
 ## 1. Regras inegociáveis
 
@@ -70,6 +71,8 @@ Easings: `E.apple` (entrada), `E.outCubic`, `E.inCubic` (saída), `E.inOutSine` 
 ## Arquivos
 
 - `references/contexto.md` · quem ela é, produto, datas, público, funil
+- `references/comunicacao.md` · **a linha de comunicação** (ancestralidade + problema e solução, 26-10-2026): crença central, 3 atos, 4 pilares, 5 estilos, série "Receita de família", banco de ganchos, LP, checklist
+- `references/copy-pesquisa.md` + `references/copy-mestres.md` · dossiês de copy (ordem de trabalho, clareza, psicologia, mestres, microtécnicas, LP que converte)
 - `references/marca.md` · tokens, fontes, plantas, componentes
 - `references/motion.md` · as 20 receitas com números e origem
 - `references/conformidade.md` · CFM 2.336/2023 + Meta + decisões do briefing + trechos dos takes G1 já mapeados
